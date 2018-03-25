@@ -14,9 +14,6 @@ def fintech31(list: List[Int]) : List[List[Int]] = {
   null
 }
 
-def red(list: List[Int]): List[List[Int]] = {
-  val result: List[List[Int]] = List ( List(num1,num2) , List(num2, num1))
-  result
-}
+
 
 

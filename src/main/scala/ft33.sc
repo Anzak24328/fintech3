@@ -18,11 +18,11 @@ case class DebetCard() extends BankProducts {
   val name: String = "Дебетовая карта"
 }
 
-var debet = new Debet();
+var debet = new Debet()
 debet.addMoney(10)
-var creditCard = new CreditCard();
+var creditCard = new CreditCard()
 creditCard.removeMoney(15)
-var debetCard = new DebetCard();
+var debetCard = new DebetCard()
 debetCard.addMoney(50)
 
 val products: List[BankProducts] = List(debet, creditCard, debetCard)
