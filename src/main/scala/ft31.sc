@@ -1,3 +1,5 @@
+//не сделал, можно не смотреть
+
 def factorial(n: Int) : BigInt = {
   if (n<=1) 1
   else factorial(n-1)*n
